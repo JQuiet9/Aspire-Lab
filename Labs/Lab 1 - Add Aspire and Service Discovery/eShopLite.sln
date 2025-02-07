@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataEntities", "DataEntitie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Products", "Products\Products.csproj", "{3366FB0E-CCF3-4620-924E-F2DA34BC00F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store", "Store\Store.csproj", "{2E156904-6754-43F5-8B27-9B9D6479D9FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store", "Store\Store.csproj", "{2E156904-6754-43F5-8B27-9B9D6479D9FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopLite.AppHost", "eShopLite.AppHost\eShopLite.AppHost.csproj", "{28710D72-1507-4377-9DB7-3242FF2A091A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopLite.ServiceDefaults", "eShopLite.ServiceDefaults\eShopLite.ServiceDefaults.csproj", "{D5E5B45E-D686-4A5F-AABC-E352D8D94FC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{2E156904-6754-43F5-8B27-9B9D6479D9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E156904-6754-43F5-8B27-9B9D6479D9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E156904-6754-43F5-8B27-9B9D6479D9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28710D72-1507-4377-9DB7-3242FF2A091A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28710D72-1507-4377-9DB7-3242FF2A091A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28710D72-1507-4377-9DB7-3242FF2A091A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28710D72-1507-4377-9DB7-3242FF2A091A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E5B45E-D686-4A5F-AABC-E352D8D94FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E5B45E-D686-4A5F-AABC-E352D8D94FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E5B45E-D686-4A5F-AABC-E352D8D94FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E5B45E-D686-4A5F-AABC-E352D8D94FC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
